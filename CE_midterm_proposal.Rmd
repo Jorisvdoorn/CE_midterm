@@ -1,0 +1,33 @@
+---
+title: "Circular Economy - Midterm Assignment Proposal"
+author: "Joris van Doorn - s2961962"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: pdf_document
+bibliography: references_case_CE.bib
+---
+
+```{r setup, include=FALSE}
+# Setting up structure and dependencies
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=9, fig.height = 4.1)
+options(tinytex.verbose = TRUE)
+library(tidyverse)
+library(car)
+set.seed(12345)
+```
+
+# Proposal
+
+I've been thinking of what would be most useful for me to do. In my bachelor program I had to write a lot of papers. Although it was a good exercise, I often felt that my writing was deprived of actual content. For the midterm assignment I propose to investigate a part of the [UNEP Data](https://uneplive.unep.org/downloader#) (in case it wasn't obvious, you can click on "UNEP Data" for a direct link to the data), the data constructed by Schandl and his colleagues [@schandl2017]. The data is quite extensive, and obviously it is not realistic to inspect every detail, but I think it would be a nice exercise to explore the climate related data. We can still determine the exact scope of my research together. 
+
+Like I previously brought up in an email, my specialty lies in statistics and data science. There is still a lot to be looked at and modeled in the Circular Economy literature, so I might as well attempt such a thing.
+The end result would be a report (like this one produced in Rmarkdown) the size of which I find difficult to determine (because graphs and tables can take up a lot of space). My code would be available at [Github](https://github.com/Jorisvdoorn/CE_midterm) (similarly you can click on "Github" to directly go to my repository).
+
+```{r, echo = F, include=FALSE}
+# place holder
+```
+
+# References
+
+<div id="refs"></div>
+
